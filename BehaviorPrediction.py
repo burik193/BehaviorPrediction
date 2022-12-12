@@ -36,7 +36,7 @@ def fall_out_score(y_test, y_predict):
     fp = confusion[0][1]
     return fp/(fp+tn)
 
-
+# wtf
 class BehaviorModelling:
     """Idea: take HCP and Webinar participation set. Bring them together using clustering"""
     def __init__(self, hcp_data: pd.DataFrame, ):
